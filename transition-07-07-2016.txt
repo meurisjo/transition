@@ -1,0 +1,88 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+OpenPGP Key Transition Statement
+
+Thu Jul  7 20:31:23 UTC 2016
+
+I have created a new 4096 bit OpenPGP key (84D10808) and will be transtioning away from my old key (6CDFFE40C). 
+
+If you have signed my old key, I would appreciate signatures on my new key as well. I prefer all future correspondence to be encrypted to the new key, and will be making signatures with the new key going forward.
+
+I would like this new key to be re-integrated into the web of trust.
+This message is signed by both keys to certify the transition. My new key 
+is signed by my old key. If you have signed my old key, I would appreciate
+signatures on my new key as well, provided that your signing policy permits this
+without re-authenticating me.
+
+The old key, which I am transitioning from, is:
+
+      2048R/CDFFE40C 2015-11-30 [expires: 2017-11-29]
+      Key fingerprint = 2A17 894D 4562 D582 93D0  0AA2 FE86 17DB CDFF E40C
+
+The new key, to which I am transitioning, is:
+
+      4096R/84D10808 2016-05-31 [expires: 2018-05-14]
+      Key fingerprint = 23DB C333 5FA1 7C9B 9AF6  3FE5 1FCA C168 84D1 0808
+
+The entire key may be downloaded from the PGP Global Directory:
+      https://keyserver.pgp.com/vkd/SubmitSearch.event?SearchCriteria=hans.meuris%40xs4all.nl
+
+To fetch the full new key from a public key server using GnuPG, run:
+      gpg --keyserver pool.sks-keyserver.net --recv-key 84D10808
+
+If you already know my old key, you can now verify that the new key is
+signed by the old one:
+
+      gpg --check-sigs 84D10808
+
+You can check the fingerprint against the one above:
+
+      gpg --fingerprint 84D10808
+
+If you are satisfied that you've got the right key, and the User IDs match
+what you expect, I would appreciate it if you would sign my key:
+
+      gpg --sign-key 84D10808
+
+You can upload your signature to a public keyserver directly:
+
+      gpg --keyserver pgp.mit.edu --sendkey 84D10808
+
+or email hans.meuris@xs4all.nl (possibly encrypted) the output from:
+
+      gpg --armor --export 84D10808
+
+To verify the intergity of this statement, download it from:
+
+      https://github.com/meurisjo/transition/blob/master/transition-07-07-2016.txt
+
+      gpg --verify transition-07-07-2016.txt
+
+Please let me know if there is any trouble, and sorry for the
+inconvenience.
+
+Johan O. (Hans) Meuris
+
+-----BEGIN PGP SIGNATURE-----
+
+iQEcBAEBCgAGBQJXfr1YAAoJEBVwDjuejZB0zDcH+QH2UFk21c0RR4r0i5YtfBdj
+OncKoI2sUrkbmypjaKfCCyCTiyQXtzzPeJrSG/PJ0FLPBNK9zaSP4klnE5WOFiPg
+Cr2MbjSHhLWp963MDA7RrOCevN9NpC/Ji1s43FOjoGYXQ/z+mhYIxO/iTFcjc66+
+TOzJp+ymPxs5MOkUdJP/OGL9JcyeH7THRAxkg5ongdCCs7WaV8mkcjp4qIR2yBhD
+bJdoZAzzwAPxEef/psxEYO+WNQOPfxZ5tu6AAAkI9QDs4whQllBQ1ixbyBwjZanZ
+GUOoG6W0VTq8ZegZooBX2+E+GUv83wPF9iAqtEc22/fNtXnUuK0Bf6lWjoxeyCuJ
+AhwEAQEKAAYFAld+vVgACgkQH8rBaITRCAjMNxAAqpE5jP3qF4Q0Ua8B53xy+XJG
+0t0/1R/mSEV+YJmNbzwfYrurubGT8VXSQPm3xPoVxcvTl34W1t4NuXSvsi582sha
+KYVX6doDXktFF5SRCAPzRsx6ClD7pcNXGTls04d3Wd3Vog0WPvu9sXQ4DMfepBM1
+pCqJpWIUDvSFsIuerDMJuIWe83GIUqlnQcDEkvYvANoLVoaoRWkS7OgCm1RUerq1
+/qV7e13ipD+1paJU6sWJbPeZmhXluO9mwLs09vCS9x4YRWkyKNn1+08DwaDWcKJG
++bgLhlPM+gmWpaSr9oQXzOSWlYf0owqCxLpYm6juQnJaeAVqAKUBN+lxBRvgwKvX
+okHDer8K/SeAZOXh7+rfKe/HrY6JbOaaNBM/kQkiJ5PWPEk3RK5728FPP3ywNiDy
+24yPREOK2MCg8hh/YwmE70V4ICmZJ9mQv/w++iqsHOCHTBDfF1NQaGKlsXAOFNHf
+gheJcyN6Vw7nUOr29P7FA9/sZFp2aDLjduicoKgKCwYozMBxGgM+x47e4quFIckr
+8C2FuLiHPvHlzfizJpuOc60qPRg5xAIlHKc82pEhK7uDCjDQr9U21eGXVpu0Y/QI
+b6L18KLJ9xoSRnz68p9N2FP2aGLDBYUiACSAJ+ax8EuSk+bi4DJbXZX/xl/wZLHA
+TCriYpj07qf1tDx2k1A=
+=CST4
+-----END PGP SIGNATURE-----
