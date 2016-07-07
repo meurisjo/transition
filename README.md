@@ -1,2 +1,2 @@
 # transition
-
+OpenPGP transition statement 
